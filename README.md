@@ -2,14 +2,14 @@
 
 ![Odoo](https://img.shields.io/badge/Odoo-16%20%E2%80%A2%2017%20%E2%80%A2%2018%20%E2%80%A2%2019-blueviolet) ![Modules](https://img.shields.io/badge/Custom%20Modules-75%2B-blue) ![Frontend](https://img.shields.io/badge/Owl-4.x-orange) ![License](https://img.shields.io/badge/License-LGPL--3-green)
 
-> Production-grade **Odoo ERP development** — 75+ custom modules delivered across **Odoo 16, 17, 18 and 19** for products & client implementations: an enterprise **AI-powered PIM platform**, a **sugar-factory ERP with Odoo↔Tally connector**, statutory **POS compliance**, sector ERPs (pet-store, hospital) and a reusable **OWL widget library**.
+> Production-grade **Odoo ERP development** — 75+ custom modules across **Odoo 16, 17, 18 and 19**. One application built **fully from scratch (Hospital Management System)**; the rest delivered as client-driven work: **feature modules, POS modifications, ERP customizations, integrations and debugging** on existing Odoo/OSS platforms.
 
 ---
 
 ## Featured Work
 
 ### 1. ODOOPIM — AI-Powered Product Information Management (Odoo 18, 25 modules)
-Akeneo-style enterprise PIM built natively in Odoo: families, attributes, categories, **channelization & localization**, approval workflows, **AI enrichment + AI translation + embedded AI chatbot**, Excel/CSV bulk product-variant import, marketplace connectors (Shopify/Amazon/Magento/…), n8n connector, and a suite of custom OWL voice-of-product widgets.
+Akeneo-style enterprise PIM built natively in Odoo. **Contribution:** AI layer (chatbot, enrichment, translation), channelization & localization, approval workflows, Excel/CSV bulk variant import, marketplace/n8n connectors and a family of custom OWL widgets — with client-driven feature additions and debugging across the platform.
 
 🔗 **Source & docs**: [odoopim-ai-suite](https://github.com/takkii4411-boop/odoopim-ai-suite)
 
@@ -18,7 +18,7 @@ Akeneo-style enterprise PIM built natively in Odoo: families, attributes, catego
 | ![PIM Overview](https://raw.githubusercontent.com/takkii4411-boop/odoopim-ai-suite/main/product_management/static/description/overview.png) | ![Import](https://raw.githubusercontent.com/takkii4411-boop/odoopim-ai-suite/main/import_product_variants_app/static/description/main_screenshot.png) | ![n8n](https://raw.githubusercontent.com/takkii4411-boop/odoopim-ai-suite/main/odoo_pim_connector/static/description/odoo_n8n_pim.png) |
 
 ### 2. TG Sugar ERP — Sugar Factory + Odoo↔Tally Connector (Odoo 19, 9 modules)
-Factory-grade customizations: **Tally XML export with configurable field mapping**, tender purchase management, broker allotment portals, party-sale flows, legacy invoice data capture, and scheduled encrypted **database backups** (S3/Dropbox/Google Drive/Nextcloud/OneDrive/FTP/SFTP).
+Client-driven factory customizations on Odoo 19 core: **Tally XML export with configurable field mapping** (built & debugged), tender purchase management, broker allotment portals, party-sale flows, legacy invoice data capture — plus customized OSS bases (scheduled **DB backups** to S3/Dropbox/GDrive/Nextcloud/OneDrive/FTP/SFTP, menu hiding, datetime masking).
 
 🔗 **Source & docs**: [tg-sugar-erp](https://github.com/takkii4411-boop/tg-sugar-erp)
 
@@ -27,7 +27,7 @@ Factory-grade customizations: **Tally XML export with configurable field mapping
 | ![Tally](https://raw.githubusercontent.com/takkii4411-boop/tg-sugar-erp/main/odoo_tally_connector/static/description/1.png) | ![Tender](https://raw.githubusercontent.com/takkii4411-boop/tg-sugar-erp/main/tender_booking/static/description/auction.png) | ![Backup](https://raw.githubusercontent.com/takkii4411-boop/tg-sugar-erp/main/auto_database_backup/static/description/assets/icons/feature.png) |
 
 ### 3. Adaptive ERP Suite — Estimation-Centric Sales Pipeline (Odoo 19, 12 modules)
-Complete estimation family (CRM→Sale→Project→Documents→Reports) to run a **pre-sales estimation pipeline**, plus targeted MRP, inventory, purchase-report and sales customizations.
+Complete estimation family (CRM→Sale→Project→Documents→Reports) to run a **pre-sales estimation pipeline**, plus targeted MRP, inventory, purchase-report and sales customizations — client-reqired features, modifications & debugging.
 
 🔗 **Source & docs**: [adaptive-erp-suite](https://github.com/takkii4411-boop/adaptive-erp-suite)
 
@@ -37,8 +37,9 @@ Pet profiles master-data, **customer portal for pets**, pet-aware product custom
 🔗 **Source & docs**: [six-paws-pet-store](https://github.com/takkii4411-boop/six-paws-pet-store)
 
 ### 5. POS Customizations (Odoo 17, 2 modules)
-- **Pos SC/PWD HMRC** — statutory Senior-Citizen/Person-With-Disability discount engine computing discount on **net-of-VAT price**, with POS session login, audit trail, e-journal & compliance reporting suite.
-- **Pos Voice Agent** — voice assistant for POS: wake-word trigger + fuzzy product search (rapidfuzz).
+Modifications & feature additions on the existing POS (built over the Softhealer retail suite base):
+- **Pos SC/PWD HMRC** — added a statutory Senior-Citizen/Person-With-Disability discount engine computing discount on **net-of-VAT price**, POS session login, audit trail, e-journal & compliance reporting suite (heavy JS/XML patching + debugging).
+- **Pos Voice Agent** — added voice capability: wake-word trigger + fuzzy product search (rapidfuzz).
 
 🔗 **Source & docs**: [odoo-pos-customizations](https://github.com/takkii4411-boop/odoo-pos-customizations)
 
@@ -47,8 +48,8 @@ Reusable frontend library: **inline Excel editor**, **webcam capture fields**, *
 
 🔗 **Source & docs**: [ranthox-owl-widgets](https://github.com/takkii4411-boop/ranthox-owl-widgets)
 
-### 7. Practice Implementations (Odoo 18/19, 5 modules)
-Hospital PMS, doctor appointments with wizard+QWeb PDF reports, patient management, stock record keeping, task tracker.
+### 7. Hospital Management System — Built From Scratch + Practice Implementations (Odoo 18/19, 5 modules)
+**Hospital PMS — first application built completely from scratch** (models, security, sequences, wizard flows, QWeb PDF reports, records portals): hospital patient/doctor/appointment management, stock material records, task tracker.
 
 🔗 **Source & docs**: [odoo-practice-projects](https://github.com/takkii4411-boop/odoo-practice-projects)
 
