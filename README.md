@@ -1,15 +1,15 @@
 # Odoo Development Portfolio
 
-![Odoo](https://img.shields.io/badge/Odoo-16%20%E2%80%A2%2017%20%E2%80%A2%2018%20%E2%80%A2%2019-blueviolet) ![Modules](https://img.shields.io/badge/Custom%20Modules-75%2B-blue) ![Frontend](https://img.shields.io/badge/Owl-4.x-orange) ![License](https://img.shields.io/badge/License-LGPL--3-green)
+![Odoo](https://img.shields.io/badge/Odoo-16%20%E2%80%A2%2017%20%E2%80%A2%2018%20%E2%80%A2%2019-blueviolet) ![Modules](https://img.shields.io/badge/Modules%20Showcased-77-blue) ![Frontend](https://img.shields.io/badge/Owl-4.x-orange) ![License](https://img.shields.io/badge/License-LGPL--3-green)
 
-> Production-grade **Odoo ERP development** — 75+ custom modules across **Odoo 16, 17, 18 and 19**. One application built **fully from scratch (Hospital Management System)**; the rest delivered as client-driven work: **feature modules, POS modifications, ERP customizations, integrations and debugging** on existing Odoo/OSS platforms.
+> Production-grade **Odoo ERP development** across **Odoo 16, 17, 18 and 19** — **77 modules showcased**, of which **30+ authored personally** (Hospital PMS from scratch, OWL widget libraries, POS feature modules, pet-store apps). The larger suites (ODOOPIM PIM, Adaptive estimation ERP, TG sugar ERP) are team builds where my contribution was the **UI widget suite, selected modules and client-driven debugging** — attributed honestly per module in each repo.
 
 ---
 
 ## Featured Work
 
 ### 1. ODOOPIM — AI-Powered Product Information Management (Odoo 18, 25 modules)
-Akeneo-style enterprise PIM built natively in Odoo. **Contribution:** AI layer (chatbot, enrichment, translation), channelization & localization, approval workflows, Excel/CSV bulk variant import, marketplace/n8n connectors and a family of custom OWL widgets — with client-driven feature additions and debugging across the platform.
+Akeneo-style enterprise PIM (Navabrind ODOOPIM platform). **My contribution: the UI widget suite** — split-screen attribute views, jsTree category hierarchy, attribute field widgets and the PIM control panel — plus client-driven debugging & small enhancements. AI layer, channelization, approvals, imports & connectors are team modules (bundled for context).
 
 🔗 **Source & docs**: [odoopim-ai-suite](https://github.com/takkii4411-boop/odoopim-ai-suite)
 
@@ -18,7 +18,7 @@ Akeneo-style enterprise PIM built natively in Odoo. **Contribution:** AI layer (
 | ![PIM Overview](https://raw.githubusercontent.com/takkii4411-boop/odoopim-ai-suite/main/product_management/static/description/overview.png) | ![Import](https://raw.githubusercontent.com/takkii4411-boop/odoopim-ai-suite/main/import_product_variants_app/static/description/main_screenshot.png) | ![n8n](https://raw.githubusercontent.com/takkii4411-boop/odoopim-ai-suite/main/odoo_pim_connector/static/description/odoo_n8n_pim.png) |
 
 ### 2. TG Sugar ERP — Sugar Factory + Odoo↔Tally Connector (Odoo 19, 9 modules)
-Client-driven factory customizations on Odoo 19 core: **Tally XML export with configurable field mapping** (built & debugged), tender purchase management, broker allotment portals, party-sale flows, legacy invoice data capture — plus customized OSS bases (scheduled **DB backups** to S3/Dropbox/GDrive/Nextcloud/OneDrive/FTP/SFTP, menu hiding, datetime masking).
+Client-driven factory work on Odoo 19 core: contributed features & debugging across **Tally XML export with configurable field mapping**, tender purchase management, broker allotment portals and party-sale flows — plus customized OSS bases (scheduled **DB backups**, menu hiding, datetime masking).
 
 🔗 **Source & docs**: [tg-sugar-erp](https://github.com/takkii4411-boop/tg-sugar-erp)
 
@@ -27,7 +27,7 @@ Client-driven factory customizations on Odoo 19 core: **Tally XML export with co
 | ![Tally](https://raw.githubusercontent.com/takkii4411-boop/tg-sugar-erp/main/odoo_tally_connector/static/description/1.png) | ![Tender](https://raw.githubusercontent.com/takkii4411-boop/tg-sugar-erp/main/tender_booking/static/description/auction.png) | ![Backup](https://raw.githubusercontent.com/takkii4411-boop/tg-sugar-erp/main/auto_database_backup/static/description/assets/icons/feature.png) |
 
 ### 3. Adaptive ERP Suite — Estimation-Centric Sales Pipeline (Odoo 19, 12 modules)
-Complete estimation family (CRM→Sale→Project→Documents→Reports) to run a **pre-sales estimation pipeline**, plus targeted MRP, inventory, purchase-report and sales customizations — client-reqired features, modifications & debugging.
+Team-built estimation family (CRM→Sale→Project→Documents→Reports) with MRP, inventory, purchase-report and sales customizations. **My role: small enhancements, fixes & debugging** (MRP/inventory tweaks, chatter positioning, wizard close-warning, report adjustments).
 
 🔗 **Source & docs**: [adaptive-erp-suite](https://github.com/takkii4411-boop/adaptive-erp-suite)
 
